@@ -19,6 +19,10 @@ function App() {
       <br />
       <h1 style={{ textAlign: "center"}}>Star Rating</h1>
       <StarRating noOfStars={10} />
+      <br />
+      <hr />
+      <br />
+      <h1 style={{ textAlign: "center"}}>Image Slider</h1>
     </div>
   )
 }
