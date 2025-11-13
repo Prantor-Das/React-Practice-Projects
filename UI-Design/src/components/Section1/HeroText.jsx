@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroText = () => {
   return (
-    <div className="p-6">
+    <div className="">
       <h3 className="mb-7 text-7xl font-bold">
         Prospective <br />
         <span>customer</span> <br />
