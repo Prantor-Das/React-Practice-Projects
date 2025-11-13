@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const Timer = () => {
-    const [time, setTime] = useState(0);
-    
-  return (
-    <div>Timer</div>
-  )
-}
+  const [time, setTime] = useState(0);
+  const [initialTime, setInitialTime] = useState(0);
+  const [isRunning, setIsRunning] = useState(false);
+  const [editState, setEditState] = useState({ field: null, value: "" });
 
-export default Timer
+  
+
+  return <div>Timer</div>;
+};
+
+export default Timer;
